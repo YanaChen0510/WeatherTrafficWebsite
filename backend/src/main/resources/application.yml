@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: traffic-weather-api
+
+external:
+  digitraffic:
+    base-url: https://api.digitraffic.fi
+  openmeteo:
+    base-url: https://api.open-meteo.com

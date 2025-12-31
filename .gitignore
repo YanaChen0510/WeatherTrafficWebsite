@@ -1,0 +1,5 @@
+target/
+traffic-weather-api/target/
+.idea/
+.vscode/
+desktop.ini

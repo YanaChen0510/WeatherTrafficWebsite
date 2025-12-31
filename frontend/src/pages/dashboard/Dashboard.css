@@ -1,0 +1,102 @@
+.infos-dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    padding: 10px;
+}
+
+.year-stats {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 14px;
+}
+
+.data-wrapper {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
+
+.precipitation-graph-wrapper {
+    border: 1px solid black;
+    border-radius: 14px;
+}
+
+.data-dashboard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+
+.graph {
+    flex: 4;
+    border: 1px solid black;
+    border-radius: 14px;
+}
+
+.insights {
+    flex: 1;
+    border: 1px solid black;
+    border-radius: 14px;
+    padding: 10px;
+}
+
+.table {
+    border: 1px solid black;
+    border-radius: 14px;
+    width: 100%;
+    flex: 1;
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+table {
+    width: 96%;
+    margin: auto;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+.line {
+    border-bottom: 1px solid black;
+}
+
+.line td {
+    padding-bottom: 5px;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.loading-dashboard {
+    padding: 20px;
+    text-align: center;
+}
+
+.error-dashboard {
+    padding: 20px;
+    text-align: center;
+    color: red;
+}
+
+h3 {
+    text-align: center;
+}
+
+.range-info {
+    text-align: center;
+}
